@@ -1,4 +1,4 @@
-package prob4;
+package lab2_4;
 
 public class StudentSectionFactory {
 	public Section createSection(int secNum, String courseName)

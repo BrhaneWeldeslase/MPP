@@ -1,4 +1,4 @@
-package prob4;
+package lab2_4;
 import java.util.*;
 public class Transcript {
 	private Student student;
