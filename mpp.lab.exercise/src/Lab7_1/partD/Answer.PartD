@@ -1,0 +1,7 @@
+ in the employee Info when 
+ 	tracker.get(e).setVisited(true);
+   is changing the visiblity of some to true and the others are to false;
+   
+   so either we remove the visiblity in the equal or we remove the setVisited(true);
+   
+   so when the containskey is searching find no key associated with that.

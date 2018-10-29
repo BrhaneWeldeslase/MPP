@@ -1,0 +1,12 @@
+the containsKey in the EmployeeInfo will look for equal and hashing and since
+no override of hashing is there. the result is false.
+
+this shows that for every  equal override, hashcode override is needed
+
+the class will result true if we override the hashcode
+
+ @Override
+ public int hashCode()
+ {
+	 return Objects.hash(name,salary);
+} 

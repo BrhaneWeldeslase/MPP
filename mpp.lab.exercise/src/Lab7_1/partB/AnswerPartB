@@ -1,0 +1,9 @@
+the reason the result is returning false
+is the equal method in the employee class is not override the Object equal method.
+
+in order to achieve that we should implement the equal using this,
+
+     public boolean equals(Object e) {
+		Employee emp=(Employee)e;
+		return emp.name.equals(name) && emp.salary == salary;
+	}
